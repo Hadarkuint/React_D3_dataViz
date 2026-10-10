@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <body>
+    <p id="text">Click the button to style me!</p>
+    <button id="btn">Style the paragraph</button>
+
+    <!-- Move the inline JS into a <script> tag below -->
+    <script>
+      document.getElementById('btn').addEventListener('click', function () {
+        const text = document.getElementById('text');
+        text.style.border = '2px solid teal';
+        text.style.backgroundColor = '#e0f7fa';
+        text.style.padding = '12px';
+      });
+    </script>
+
+    <!-- 
+         <script>
+      document.getElementById("btn").addEventListener("click", function () {
+        document.getElementById("text").style.color = "blue";
+      }); 
+    </script>
+    -->
+  </body>
+</html>
