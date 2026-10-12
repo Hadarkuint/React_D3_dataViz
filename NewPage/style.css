@@ -14,7 +14,7 @@ body {
   display: grid;
   place-items: center;
   padding: 24px;
-  background: #e8eef4;
+  background: #eaf4e8;
   font-family: Inter, Arial, sans-serif;
 }
 .banner {
@@ -28,7 +28,7 @@ body {
   box-shadow: 0 22px 55px #0a27402b;
 }
 .banner::before {
-  content: "";
+  content: '';
   position: absolute;
   inset: -300px 32% -150px -25%;
   z-index: -1;
@@ -37,7 +37,7 @@ body {
   transform: rotate(-26deg);
 }
 .banner::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 580px;
   height: 580px;
